@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../ObterDadosDoPinpad/">
+        <link rel="prev" href="../SolicitaInformacoesPinpad/">
       
       
-        <link rel="next" href="../CodigoMotivoNegada/">
+        <link rel="next" href="../ObterDadosDoPinpad/">
       
       
       <link rel="icon" href="../icone/logo.ico">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Códigos de retorno - Paykit Web Checkout</title>
+        <title>Obter informações de configuração do PDV - Paykit Web Checkout</title>
       
     
     
@@ -99,7 +99,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#possiveis-codigos-de-retorno" class="md-skip">
+        <a href="#obtendo-dados-de-configuracao-do-pdv" class="md-skip">
           Skip to content
         </a>
       
@@ -134,7 +134,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Códigos de retorno
+              Obter informações de configuração do PDV
             
           </span>
         </div>
@@ -841,10 +841,28 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../ObterDadosConfiguracaoPDV/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Obter informações de configuração do PDV
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -853,6 +871,66 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#obtendo-dados-de-configuracao-do-pdv" class="md-nav__link">
+    <span class="md-ellipsis">
+      Obtendo Dados de Configuração do PDV
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Obtendo Dados de Configuração do PDV">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-retorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de retorno:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -881,28 +959,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Códigos de retorno
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../CodigosRetorno/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -911,33 +971,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#possiveis-codigos-de-retorno" class="md-nav__link">
-    <span class="md-ellipsis">
-      Possíveis códigos de retorno
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1191,11 +1224,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#possiveis-codigos-de-retorno" class="md-nav__link">
+  <a href="#obtendo-dados-de-configuracao-do-pdv" class="md-nav__link">
     <span class="md-ellipsis">
-      Possíveis códigos de retorno
+      Obtendo Dados de Configuração do PDV
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Obtendo Dados de Configuração do PDV">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-retorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de retorno:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1214,36 +1280,99 @@
                   
 
 
-  <h1>Códigos de retorno</h1>
+  <h1>Obter informações de configuração do PDV</h1>
 
-<h2 id="possiveis-codigos-de-retorno"><strong>Possíveis códigos de retorno</strong></h2>
+<h2 id="obtendo-dados-de-configuracao-do-pdv"><strong>Obtendo Dados de Configuração do PDV</strong></h2>
+<p>Utilizando esta função, é possível obter dados de conexão e da configuração do PDV no Linx TEF, como empresa, loja, ip do servidor, etc.</p>
+<div class="language-JavaScript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">//Não esqueça de realizar a autenticação aqui.</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">success</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Empresa: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">Empresa</span><span class="p">);</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Loja: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">Loja</span><span class="p">);</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;PDV: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">PDV</span><span class="p">);</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;CNPJ: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">CNPJ</span><span class="p">);</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;IPServidor: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">IPServidor</span><span class="p">);</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Porta: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">Porta</span><span class="p">);</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">};</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="kd">var</span><span class="w"> </span><span class="nx">error</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">reason</span><span class="p">);</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="p">};</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="nx">checkout</span><span class="p">.</span><span class="nx">getConfigData</span><span class="p">(</span><span class="nx">success</span><span class="p">,</span><span class="w"> </span><span class="nx">error</span><span class="p">);</span>
+</span></code></pre></div>
+<h3 id="callback-de-sucesso"><strong>Callback de sucesso</strong></h3>
+<p>Será executado o callback de sucesso logo em que a informação for retornada do paykit:</p>
 <table>
 <thead>
 <tr>
-<th>Código</th>
+<th>Propriedade</th>
+<th>Tipo</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0</td>
-<td>Sucesso</td>
+<td>Empresa</td>
+<td>string</td>
+<td>Código da empresa no Linx TEF. String contendo 4 inteiros.</td>
 </tr>
 <tr>
-<td>1</td>
-<td>Não autenticado/Alguma das informações fornecidas para autenticação não é válida</td>
+<td>Loja</td>
+<td>string</td>
+<td>Código da loja no Linx TEF. String contendo 4 inteiros.</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Erro interno no Paykit Checkout</td>
+<td>PDV</td>
+<td>string</td>
+<td>Código do PDV no Linx TEF. String contendo 3 inteiros.</td>
 </tr>
 <tr>
-<td>9</td>
-<td>Ocorre quando qualquer operação é realizada sem que se tenha finalizado o último pagamento</td>
+<td>CNPJ</td>
+<td>string</td>
+<td>CNPJ da empresa.</td>
 </tr>
 <tr>
-<td>15</td>
-<td>Existem pagamentos pendentes de uma sessão de multiplos pagamentos não finalizada.</td>
+<td>IPServidor</td>
+<td>string</td>
+<td>Ip do servidor Linx TEF</td>
+</tr>
+<tr>
+<td>Porta</td>
+<td>number</td>
+<td>Porta de conexão ao servidor Linx TEF</td>
+</tr>
+</tbody>
+</table>
+<h3 id="exemplo-de-retorno"><strong>Exemplo de retorno:</strong></h3>
+<div class="language-JavaScript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="s2">&quot;Empresa&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;1&quot;</span><span class="p">,</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="s2">&quot;Loja&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;1&quot;</span><span class="p">,</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="s2">&quot;PDV&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;250&quot;</span><span class="p">,</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="s2">&quot;CNPJ&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;18758677000159&quot;</span><span class="p">,</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="s2">&quot;IPServidor&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;127.0.0.1&quot;</span><span class="p">,</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="s2">&quot;Porta&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;6800&quot;</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="callback-de-erro"><strong>Callback de erro</strong></h3>
+<p>Será executado o callback de erro caso ocorra algum erro de processamento:</p>
+<table>
+<thead>
+<tr>
+<th>Propriedade</th>
+<th>Tipo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reasonCode</td>
+<td>number</td>
+<td>Código que representa o motivo pelo qual a operação foi negada, as possibilidades deste código podem ser consultadas nas tabelas <a href="../CodigoMotivoNegada/#codigos-de-motivo-para-operacoes-negadas">Códigos de motivo para operações negadas</a> e <a href="../CodigosRetorno/#possiveis-codigos-de-retorno">Possíveis códigos de retorno</a></td>
+</tr>
+<tr>
+<td>reason</td>
+<td>string</td>
+<td>Descreve o motivo pelo qual a operação foi negada.</td>
 </tr>
 </tbody>
 </table>
@@ -1270,7 +1399,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../ObterDadosDoPinpad/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Obter dados do Pinpad conectado ao PDV">
+          <a href="../SolicitaInformacoesPinpad/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Solicitar informações pelo Pinpad">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1280,20 +1409,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Obter dados do Pinpad conectado ao PDV
+                Solicitar informações pelo Pinpad
               </div>
             </div>
           </a>
         
         
           
-          <a href="../CodigoMotivoNegada/" class="md-footer__link md-footer__link--next" aria-label="Next: Códigos de operações negadas">
+          <a href="../ObterDadosDoPinpad/" class="md-footer__link md-footer__link--next" aria-label="Next: Obter dados do Pinpad conectado ao PDV">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Códigos de operações negadas
+                Obter dados do Pinpad conectado ao PDV
               </div>
             </div>
             <div class="md-footer__button md-icon">

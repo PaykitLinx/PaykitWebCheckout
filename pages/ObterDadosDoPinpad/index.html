@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../ObterDadosDoPinpad/">
+        <link rel="prev" href="../ObterDadosConfiguracaoPDV/">
       
       
-        <link rel="next" href="../CodigoMotivoNegada/">
+        <link rel="next" href="../CodigosRetorno/">
       
       
       <link rel="icon" href="../icone/logo.ico">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Códigos de retorno - Paykit Web Checkout</title>
+        <title>Obter dados do Pinpad conectado ao PDV - Paykit Web Checkout</title>
       
     
     
@@ -99,7 +99,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#possiveis-codigos-de-retorno" class="md-skip">
+        <a href="#obtendo-dados-de-identificacao-do-pinpad" class="md-skip">
           Skip to content
         </a>
       
@@ -134,7 +134,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Códigos de retorno
+              Obter dados do Pinpad conectado ao PDV
             
           </span>
         </div>
@@ -861,26 +861,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../ObterDadosDoPinpad/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Obter dados do Pinpad conectado ao PDV
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -895,7 +875,7 @@
           
   
   <span class="md-ellipsis">
-    Códigos de retorno
+    Obter dados do Pinpad conectado ao PDV
   </span>
   
 
@@ -906,7 +886,7 @@
         
   
   <span class="md-ellipsis">
-    Códigos de retorno
+    Obter dados do Pinpad conectado ao PDV
   </span>
   
 
@@ -926,11 +906,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#possiveis-codigos-de-retorno" class="md-nav__link">
+  <a href="#obtendo-dados-de-identificacao-do-pinpad" class="md-nav__link">
     <span class="md-ellipsis">
-      Possíveis códigos de retorno
+      Obtendo Dados de Identificação do Pinpad
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Obtendo Dados de Identificação do Pinpad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-retorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de retorno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -938,6 +951,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CodigosRetorno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Códigos de retorno
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1191,11 +1224,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#possiveis-codigos-de-retorno" class="md-nav__link">
+  <a href="#obtendo-dados-de-identificacao-do-pinpad" class="md-nav__link">
     <span class="md-ellipsis">
-      Possíveis códigos de retorno
+      Obtendo Dados de Identificação do Pinpad
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Obtendo Dados de Identificação do Pinpad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-retorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de retorno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1214,36 +1280,113 @@
                   
 
 
-  <h1>Códigos de retorno</h1>
+  <h1>Obter dados do Pinpad conectado ao PDV</h1>
 
-<h2 id="possiveis-codigos-de-retorno"><strong>Possíveis códigos de retorno</strong></h2>
+<h2 id="obtendo-dados-de-identificacao-do-pinpad"><strong>Obtendo Dados de Identificação do Pinpad</strong></h2>
+<p>Utilizando esta função, é possível obter dados do pinpad conectado ao PDV como fabricante, modelo, etc...</p>
+<div class="language-JavaScript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">//Não esqueça de realizar a autenticação aqui.</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">success</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Fabricante: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">Fabricante</span><span class="p">);</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Modelo: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">Modelo</span><span class="p">);</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Capacidade: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">Capacidade</span><span class="p">);</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;CTLS: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">CTLS</span><span class="p">);</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;VersaoSoftware: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">VersaoSoftware</span><span class="p">);</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;VersaoEspecificacao: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">VersaoEspecificacao</span><span class="p">);</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;VersaoAplicacao: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">VersaoAplicacao</span><span class="p">);</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;NumeroSerie: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">NumeroSerie</span><span class="p">);</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">  </span><span class="p">};</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="kd">var</span><span class="w"> </span><span class="nx">error</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">reason</span><span class="p">);</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">};</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nx">checkout</span><span class="p">.</span><span class="nx">getConfigData</span><span class="p">(</span><span class="nx">success</span><span class="p">,</span><span class="w"> </span><span class="nx">error</span><span class="p">);</span>
+</span></code></pre></div>
+<h3 id="callback-de-sucesso"><strong>Callback de sucesso</strong></h3>
+<p>Será executado o callback de sucesso logo em que a informação for retornada do paykit:</p>
 <table>
 <thead>
 <tr>
-<th>Código</th>
+<th>Propriedade</th>
+<th>Tipo</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0</td>
-<td>Sucesso</td>
+<td>Fabricante</td>
+<td>string</td>
+<td>Nome do Fabricante.</td>
 </tr>
 <tr>
-<td>1</td>
-<td>Não autenticado/Alguma das informações fornecidas para autenticação não é válida</td>
+<td>Modelo</td>
+<td>string</td>
+<td>Modelo.</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Erro interno no Paykit Checkout</td>
+<td>Capacidade</td>
+<td>string</td>
+<td>Capacidade de memória.</td>
 </tr>
 <tr>
-<td>9</td>
-<td>Ocorre quando qualquer operação é realizada sem que se tenha finalizado o último pagamento</td>
+<td>CTLS</td>
+<td>boolean</td>
+<td>Se o pinpad suporta cartão com chip sem contato.</td>
 </tr>
 <tr>
-<td>15</td>
-<td>Existem pagamentos pendentes de uma sessão de multiplos pagamentos não finalizada.</td>
+<td>VersaoSoftware</td>
+<td>string</td>
+<td>Versão do software básico/firmware.</td>
+</tr>
+<tr>
+<td>VersaoEspecificacao</td>
+<td>string</td>
+<td>Versão da especificação.</td>
+</tr>
+<tr>
+<td>VersaoAplicacao</td>
+<td>number</td>
+<td>Versão da aplicação básica.</td>
+</tr>
+<tr>
+<td>NumeroSerie</td>
+<td>number</td>
+<td>Número de série do pinpad.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="exemplo-de-retorno"><strong>Exemplo de retorno</strong></h3>
+<div class="language-JavaScript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="s2">&quot;Fabricante&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;GERTEC              &quot;</span><span class="p">,</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="s2">&quot;Modelo&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;PPC-930&quot;</span><span class="p">,</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="s2">&quot;Capacidade&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;192MB      &quot;</span><span class="p">,</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="s2">&quot;CTLS&quot;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="s2">&quot;VersaoSoftware&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;1400.12503.VR1115  @&quot;</span><span class="p">,</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="s2">&quot;VersaoEspecificacao&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;2.12&quot;</span><span class="p">,</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="s2">&quot;VersaoAplicacao&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;002.14 200921   &quot;</span><span class="p">,</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="s2">&quot;NumeroSerie&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;7200762301020618    &quot;</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="callback-de-erro"><strong>Callback de erro</strong></h3>
+<p>Será executado o callback de erro caso ocorra algum erro de processamento:</p>
+<table>
+<thead>
+<tr>
+<th>Propriedade</th>
+<th>Tipo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reasonCode</td>
+<td>number</td>
+<td>Código que representa o motivo pelo qual a operação foi negada, as possibilidades deste código podem ser consultadas nas tabelas <a href="../CodigoMotivoNegada/#codigos-de-motivo-para-operacoes-negadas">Códigos de motivo para operações negadas</a> e <a href="../CodigosRetorno/#possiveis-codigos-de-retorno">Possíveis códigos de retorno</a></td>
+</tr>
+<tr>
+<td>reason</td>
+<td>string</td>
+<td>Descreve o motivo pelo qual a operação foi negada.</td>
 </tr>
 </tbody>
 </table>
@@ -1270,7 +1413,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../ObterDadosDoPinpad/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Obter dados do Pinpad conectado ao PDV">
+          <a href="../ObterDadosConfiguracaoPDV/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Obter informações de configuração do PDV">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1280,20 +1423,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Obter dados do Pinpad conectado ao PDV
+                Obter informações de configuração do PDV
               </div>
             </div>
           </a>
         
         
           
-          <a href="../CodigoMotivoNegada/" class="md-footer__link md-footer__link--next" aria-label="Next: Códigos de operações negadas">
+          <a href="../CodigosRetorno/" class="md-footer__link md-footer__link--next" aria-label="Next: Códigos de retorno">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Códigos de operações negadas
+                Códigos de retorno
               </div>
             </div>
             <div class="md-footer__button md-icon">
