@@ -319,10 +319,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -370,48 +366,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../RealizandoAutenticacao/CallbackDeSucesso/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Callback de Sucesso
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../RealizandoAutenticacao/CallbackDeErro/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Callback de erro
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../RealizandoAutenticacao/CallbackDeTransacoesPendentes/" class="md-nav__link">
         
   
@@ -439,11 +393,33 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../CallbackDeErro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Callback de erro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
       
         
           
+        
+      
         
       
         
@@ -461,7 +437,7 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           
@@ -477,14 +453,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Pagamento
           </label>
@@ -555,6 +531,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pagamento/CapturaDadosTransacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Capturar os dados da transação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -592,7 +589,7 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
           
@@ -608,14 +605,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Funções Administrativas
           </label>
@@ -710,26 +707,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../CapturaDadosTransacao/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Capturar os dados da transação
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -897,6 +874,24 @@
   <a href="#callback-de-sucesso" class="md-nav__link">
     <span class="md-ellipsis">
       Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-retorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de retorno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
     </span>
   </a>
   
@@ -1260,6 +1255,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#exemplo-de-retorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de retorno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1355,17 +1368,20 @@
 </thead>
 <tbody>
 <tr>
-<td>reasonCode</td>
-<td>number</td>
-<td>Código que representa o motivo pelo qual a operação foi negada, as possibilidades deste código podem ser consultadas nas tabelas <a href="../CodigoMotivoNegada/#codigos-de-motivo-para-operacoes-negadas">Códigos de motivo para operações negadas</a> e <a href="../CodigosRetorno/#possiveis-codigos-de-retorno">Possíveis códigos de retorno</a></td>
-</tr>
-<tr>
-<td>reason</td>
+<td>pinpadValue</td>
 <td>string</td>
-<td>Descreve o motivo pelo qual a operação foi negada.</td>
+<td>Dado capturado pelo pinpad.</td>
 </tr>
 </tbody>
 </table>
+<h3 id="exemplo-de-retorno"><strong>Exemplo de retorno</strong></h3>
+<div class="language-JavaScript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="s2">&quot;pinpadValue&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;93054816044&quot;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="callback-de-erro"><strong>Callback de erro</strong></h3>
+<p>Será executado o callback de erro caso ocorra algum erro de processamento:</p>
+<p>Para detalhamento dos dados consulte a seção <a href="../CallbackDeErro/">Callback de erro</a>.</p>
 
 
 

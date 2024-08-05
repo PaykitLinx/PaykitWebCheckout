@@ -319,10 +319,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -370,48 +366,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../RealizandoAutenticacao/CallbackDeSucesso/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Callback de Sucesso
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../RealizandoAutenticacao/CallbackDeErro/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Callback de erro
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../RealizandoAutenticacao/CallbackDeTransacoesPendentes/" class="md-nav__link">
         
   
@@ -439,11 +393,33 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../CallbackDeErro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Callback de erro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
       
         
           
+        
+      
         
       
         
@@ -461,7 +437,7 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           
@@ -477,14 +453,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Pagamento
           </label>
@@ -555,6 +531,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pagamento/CapturaDadosTransacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Capturar os dados da transação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -594,7 +591,7 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           
@@ -610,14 +607,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Funções Administrativas
           </label>
@@ -687,6 +684,24 @@
   <a href="#request-para-cancelamento" class="md-nav__link">
     <span class="md-ellipsis">
       Request para cancelamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
     </span>
   </a>
   
@@ -772,26 +787,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../CapturaDadosTransacao/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Capturar os dados da transação
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1226,6 +1221,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#callback-de-sucesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de sucesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callback-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callback de erro
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1251,37 +1264,71 @@
 <h2 id="cancelamento-de-pagamentos"><strong>Cancelamento de pagamentos</strong></h2>
 <div class="language-JavaScript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">//Não esqueça de realizar a autenticação aqui.</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">administrativeCode</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;000000000&#39;</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">};</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="kd">var</span><span class="w"> </span><span class="nx">success</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="c1">// callback para cancelamento bem sucedido</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">administrativeCode</span><span class="p">);</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">receipt</span><span class="p">.</span><span class="nx">merchantReceipt</span><span class="p">);</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="p">};</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="kd">var</span><span class="w"> </span><span class="nx">error</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="c1">// callback para cancelamento que falhou</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">reason</span><span class="p">);</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">};</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nx">checkout</span><span class="p">.</span><span class="nx">paymentReversal</span><span class="p">(</span><span class="nx">request</span><span class="p">,</span><span class="w"> </span><span class="nx">success</span><span class="p">,</span><span class="w"> </span><span class="nx">error</span><span class="p">);</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">administrativeCode</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;001234&#39;</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">requestKey</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;001234&#39;</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nx">amount</span><span class="o">:</span><span class="w"> </span><span class="mf">125</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nx">date</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;31122024&#39;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">};</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="kd">var</span><span class="w"> </span><span class="nx">success</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="c1">// callback para cancelamento bem sucedido</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">administrativeCode</span><span class="p">);</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">receipt</span><span class="p">.</span><span class="nx">merchantReceipt</span><span class="p">);</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="p">};</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="kd">var</span><span class="w"> </span><span class="nx">error</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="c1">// callback para cancelamento que falhou</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">reason</span><span class="p">);</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="p">};</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="nx">checkout</span><span class="p">.</span><span class="nx">paymentReversal</span><span class="p">(</span><span class="nx">request</span><span class="p">,</span><span class="w"> </span><span class="nx">success</span><span class="p">,</span><span class="w"> </span><span class="nx">error</span><span class="p">);</span>
 </span></code></pre></div>
 <h3 id="request-para-cancelamento"><strong>Request para cancelamento</strong></h3>
 <table>
 <thead>
 <tr>
 <th>Parâmetro</th>
+<th>Obrigatório?</th>
+<th>Tipo</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>administrativeCode</td>
-<td>Identificador único para pagamentos, é devolvido quando a transação é autorizada mas também pode ser consultado no portal de transações Linx TEF</td>
+<td>Sim</td>
+<td>string</td>
+<td>Identificador único da transação a ser cancelada com 6 algarismos. Ele é devolvido quando a transação é autorizada mas também pode ser consultado no portal de transações Linx TEF</td>
+</tr>
+<tr>
+<td>requestKey</td>
+<td>Não</td>
+<td>string</td>
+<td>Número do cupom (fiscal ou não fiscal) com 6 algarismos</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>Não</td>
+<td>string</td>
+<td>Valor da transação sem separador decimal</td>
+</tr>
+<tr>
+<td>data</td>
+<td>Não</td>
+<td>string</td>
+<td>Data da transação no formato 'DDMMAAAA'</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Observação:</strong>
+<br>
+Se os campos <i>amount</i> e <i>date</i> não estiverem presentes na requisição, estes dados serão solicitados ao operador do PDV durante a transação.</p>
+<h3 id="callback-de-sucesso"><strong>Callback de sucesso</strong></h3>
+<p>Será executado o callback de sucesso logo em que a informação for retornada do paykit.
+Para detalhamento dos dados de retorno consulte a seção <a href="../../Pagamento/CapturaDadosTransacao/">Capturando os dados de retorno da transação</a>.</p>
+<h3 id="callback-de-erro"><strong>Callback de erro</strong></h3>
+<p>Será executado o callback de erro caso ocorra algum erro de processamento:</p>
+<p>Para detalhamento dos dados consulte a seção <a href="../../CallbackDeErro/">Callback de erro</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Importante!</p>
 <p>No caso de uma transação conter uma ordem de split esta será cancelado também.</p>
